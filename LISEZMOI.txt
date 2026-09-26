@@ -1,0 +1,25 @@
+Aion 2, la Bible : version à héberger
+
+Contenu
+  index.html   la page complète (styles et scripts intégrés)
+  images/      toutes les images, en WebP
+
+Mise en ligne
+  Copiez le dossier tel quel sur votre hébergement (Netlify, GitHub Pages, OVH, serveur perso...).
+  index.html et le dossier images/ doivent rester côte à côte.
+  Aucune installation ni base de données : c'est un site statique.
+
+Images
+  Nommage : <guide>-<ordre d'apparition>.webp, par exemple leveling-07.webp.
+  Les captures larges existent en deux tailles :
+    leveling-07.webp       1600 px, utilisée sur grand écran et dans la visionneuse
+    leveling-07-800.webp   800 px, chargée automatiquement sur mobile
+  Pour remplacer une image, gardez le même nom de fichier.
+
+Liens
+  Chaque onglet et chaque section a une adresse directe, par exemple :
+    index.html#/soulbind/tableau
+    index.html#/leveling/rifts
+
+Polices
+  Marcellus et Alegreya Sans sont chargées depuis Google Fonts.
